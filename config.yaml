@@ -1,6 +1,6 @@
 ---
 
-baseURL: 'http://example.org/'
+baseURL: 'https://securitytxt.cz'
 languageCode: 'cs-cz'
 theme: "hugo-coder"
 title: "security.txt"
@@ -14,10 +14,11 @@ markup:
 menu:
   main:
   - name: "Kdo používá"
-    url: "kdo-pouziva-security-txt"
-  - name: Struktura souboru
-    weight: 1
-  - name: Nástroje
-  - name: Další informace
     weight: 10
+    url: "kdo-pouziva-security-txt"
+  - name: O security.txt
+    url: "/"
+    weight: 1
   - name: RFC9116
+    weight: 100
+    url: "https://www.rfc-editor.org/rfc/rfc9116"
