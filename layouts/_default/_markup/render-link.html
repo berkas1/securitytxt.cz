@@ -1,0 +1,2 @@
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }} {{ if findRE "^(https?:)?//" (lower .Destination) }} class="external-link" target="_blank" rel="noopener nofollow"{{ end }}>{{ .Text | safeHTML }}</a>
+

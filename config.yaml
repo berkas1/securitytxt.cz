@@ -1,0 +1,23 @@
+---
+
+baseURL: 'http://example.org/'
+languageCode: 'cs-cz'
+theme: "hugo-coder"
+title: "security.txt"
+
+
+markup:
+  markup.highlight:
+    style: "onesenterprise"
+
+
+menu:
+  main:
+  - name: "Kdo používá"
+    url: "kdo-pouziva-security-txt"
+  - name: Struktura souboru
+    weight: 1
+  - name: Nástroje
+  - name: Další informace
+    weight: 10
+  - name: RFC9116
