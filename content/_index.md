@@ -5,7 +5,7 @@ draft: false
 ---
 
 
-Soubor security.txt je textový soubor, který mohou správci webů umístit na předem známou adresu (například `https://example.com/.well-known/security.txt`). Tento soubor obsahuje informace, jakým způsobem je možné kontaktovat bezpečnostní tým (případně pověřenou osobu) v případě, že na webu někdo najde bezpečnostní problém a chce jej správným způsobem nahlásit.
+Soubor [security.txt](https://securitytxt.cz/.well-known/security.txt) je textový soubor, který mohou správci webů umístit na předem známou adresu (například `https://example.com/.well-known/security.txt`). Tento soubor obsahuje informace, jakým způsobem je možné kontaktovat bezpečnostní tým (případně pověřenou osobu) v případě, že na webu někdo najde bezpečnostní problém a chce jej správným způsobem nahlásit.
 
 security.txt je internetový standard definovaný jako [RFC 9116](https://www.rfc-editor.org/rfc/rfc9116). V tomto dokumentu je možné nalézt atuální specifikace a požadavky na soubor.
 
@@ -52,7 +52,7 @@ Jedná se o běžný textový soubor, je tedy možné jej vytvořit napsáním v
 
 ## Ukázka
 
-Ukázka souboru digitálně podepsaného security.txt souboru.
+Ukázka digitálně podepsaného a validního security.txt souboru se nachází ve zmíněné složce *.well-known*, tedy [https://securitytxt.cz/.well-known/security.txt](https://securitytxt.cz/.well-known/security.txt), případně zde:
 
 ```html
 -----BEGIN PGP SIGNED MESSAGE-----
