@@ -3,7 +3,7 @@
 baseURL: 'https://securitytxt.cz'
 languageCode: 'cs-cz'
 theme: "hugo-coder"
-title: "security.txt"
+title: "securitytxt.cz"
 
 
 markup:
