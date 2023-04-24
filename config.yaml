@@ -19,6 +19,9 @@ menu:
   - name: O security.txt
     url: "/"
     weight: 1
+  - name: Projekty
+    url: "projekty"
+    weight: 20
   - name: RFC9116
     weight: 100
     url: "https://www.rfc-editor.org/rfc/rfc9116"
